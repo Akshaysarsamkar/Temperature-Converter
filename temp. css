@@ -1,0 +1,84 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: white;
+  color: black;
+  background-color: #eeccff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#main_cotainer {
+  width: 300px;
+  border: 2px solid green;
+  border-radius: 5px;
+  position: absolute;
+   background-color:white;
+  left: 35%;
+  top: 25%;
+  padding: 10px 20px;
+}
+
+h4 {
+  color: green;
+  font-family: 'Agdasima', sans-serif;
+  font-size:20px;
+}
+
+p {
+  font-size: 20px;
+  color: green;
+  font-weight:600;
+}
+
+#get_input {
+  padding: 5px 5px;
+  border-radius: none;
+  width: 90%;
+  border: 1px solid gray;
+}
+
+#data {
+  border: 1px solid gray;
+  border-radius: 0px;
+  width: 90%;
+}
+
+#data,
+option {
+  padding: 5px 5px;
+  font-family: 'Ysabeau SC', sans-serif;
+  font-size: 12px;
+  color: green;
+  text-align: center;
+  font-weight: 800;
+      margin-bottom:10px;
+}
+
+button {
+  margin: 10px 5px;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  width: 60%;
+  Font-weight: 800;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color:#eeccff;
+  color: green;
+}
+
+#ans {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
